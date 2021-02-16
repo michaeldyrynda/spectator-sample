@@ -1,0 +1,40 @@
+openapi: 3.0.3
+info:
+  title: Spectator Sample App
+  version: 0.1.0
+  description: A sample app to show that I don't know how to create a tags array
+  contact:
+    name: Michael Dyrynda
+    email: michael@dyrynda.com.au
+    url: 'https://dyrynda.com.au'
+servers:
+  - url: 'http://localhost'
+    description: Local url for testing
+tags: 
+  - "I don't"
+  - "know what"
+  - "I'm doing"
+paths:
+  /api/testing:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+      operationId: get-api-testing
+      description: A testing endpoint
+components:
+  schemas: null
+  responses: null
+  headers: null
+  parameters: null
+  links: null
+  examples: null
