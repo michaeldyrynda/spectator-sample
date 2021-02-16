@@ -11,9 +11,9 @@ servers:
   - url: 'http://localhost'
     description: Local url for testing
 tags: 
-  - "I don't"
-  - "know what"
-  - "I'm doing"
+  - name: "I don't"
+  - name: "know what"
+  - name: "I'm doing"
 paths:
   /api/testing:
     get:
